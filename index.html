@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant's Portfolio Website</title>
+    <link rel="icon" type="/images/x-icon" href="/images/www.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;
+0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(13, 13, 54);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(150, 150, 209);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+
+        .leftSection {
+            font-size: 35px;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(16, 16, 93);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            margin: 50px;
+            width: 78%;
+        }
+
+        .purple {
+            color: rgb(176, 106, 242);
+        }
+
+        #element {
+            color: rgb(176, 106, 242);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(155, 155, 220);
+            height: 2px;
+            margin: 40px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.6rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            height: 93px;
+            width: 1px;
+            margin: 0 120px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 70px;
+            width: 150px;
+            font-size: 15px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 50px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 350px;
+        }
+
+        footer ul a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul a:hover {
+            text-decoration: none;
+            color: rgb(132, 132, 204);
+            font-size: 1.01em;
+        }
+
+        .footer-rights {
+            color: gray;
+            text-align: center;
+            padding: 10px, 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vedant's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple"> Vedant</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://www.linkedin.com/in/vedant-chauhan-3826332b4/ " target="_blank"><button
+                            class="btn">Download resume</button></a>
+                    <a href="https://github.com/Anonymous-Gigabyte" target="_blank"><button class="btn">Visit
+                            Github</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="/images/bg.png" alt="Img">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/images/htmlimg.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab voluptatum distinctio itaque accusantium temporibus ut laboriosam nihil
+                        reprehenderit vero quaerat harum, nostrum facere.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/tesla.png" alt="">
+                    <div class="vertical-title">
+                        React Developer-Tesla
+                        (2014-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab voluptatum distinctio itaque accusantium temporibus ut laboriosam nihil
+                        reprehenderit vero quaerat harum, nostrum facere.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/yt.png " alt="">
+                    <div class="vertical-title">
+                        React Developer - YouTube
+                        (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab voluptatum distinctio itaque accusantium temporibus ut laboriosam nihil
+                        reprehenderit vero quaerat harum, nostrum facere.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/x.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer - X
+                        (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab voluptatum distinctio itaque accusantium temporibus ut laboriosam nihil
+                        reprehenderit vero quaerat harum, nostrum facere.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/nf.png" alt="">
+                    <div class="vertical-title">
+                        React Developer - Netflix
+                        (2020-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Ab voluptatum distinctio itaque accusantium temporibus ut laboriosam nihil
+                        reprehenderit vero quaerat harum, nostrum facere.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Vedant's Developer Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="https://www.linkedin.com/in/vedant-chauhan-3826332b4/ " target="_blank">
+                        <li>LinkedIn</li>
+                    </a>
+                    <a href="https://github.com/Anonymous-Gigabyte" target="_blank">
+                        <li>Github</li>
+                    </a>
+                    <a href="mailto:chauhanvedant007@gmail.com" target="_blank">
+                        <li>Email</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.vedantsportfolio.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'UI / UX.', 'Frontend Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
